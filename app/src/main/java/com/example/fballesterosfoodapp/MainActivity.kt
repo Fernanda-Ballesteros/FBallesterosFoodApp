@@ -79,7 +79,7 @@ fun HomeScreen(innerPadding : PaddingValues){
             Icon(imageVector = Icons.Default.AccountCircle , contentDescription = "Account Circle", tint = OrangeFoodApp)
 
             //Texto
-            Text(text = "Hola, Fer", fontSize = 20.sp, fontWeight = FontWeight.Medium,
+            Text(text = "Hola, Fer", fontSize = 20.sp, fontWeight = FontWeight.Bold,
             modifier = Modifier.padding(start = 4.dp))
 
             Spacer(modifier = Modifier.weight(1f))
@@ -93,7 +93,7 @@ fun HomeScreen(innerPadding : PaddingValues){
         Text(
             text = "Nuestras categorias",
             fontSize = 30.sp,
-            fontWeight = FontWeight.Medium,
+            fontWeight = FontWeight.Bold,
             modifier = Modifier
                 .fillMaxWidth()
                 .align(Alignment.Start)
@@ -132,7 +132,7 @@ fun HomeScreen(innerPadding : PaddingValues){
         Text(
             text = "Busca los mejores restaurantes",
             fontSize = 30.sp,
-            fontWeight = FontWeight.Medium,
+            fontWeight = FontWeight.Bold,
             modifier = Modifier
                 .fillMaxWidth()
                 .align(Alignment.Start)
@@ -170,7 +170,7 @@ fun HomeScreen(innerPadding : PaddingValues){
         Text(
             text = "Nuestras mejores comidas",
             fontSize = 30.sp,
-            fontWeight = FontWeight.Medium,
+            fontWeight = FontWeight.Bold,
             modifier = Modifier
                 .fillMaxWidth()
                 .align(Alignment.Start)

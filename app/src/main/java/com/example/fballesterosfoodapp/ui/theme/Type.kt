@@ -9,23 +9,19 @@ import androidx.compose.ui.unit.sp
 import com.example.fballesterosfoodapp.R
 
 // Set of Material typography styles to start with
+val outfitFontFamily = FontFamily(
+    Font(R.font.outfit)
+)
 
-val outfitFontFamily: Typography = FontFamily(
-        Font(R.font.outfit)
-    )
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+val AppTypography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = outfitFontFamily,
         fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
+        fontSize = 16.sp
     ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
+    titleLarge = TextStyle(
+        fontFamily = outfitFontFamily,
+        fontWeight = FontWeight.Bold,
+        fontSize = 22.sp
     )
-    */
+)

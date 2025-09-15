@@ -52,7 +52,7 @@ fun FBallesterosFoodAppTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = outfitFontFamily,
+        typography = AppTypography,
         content = content
     )
 }
